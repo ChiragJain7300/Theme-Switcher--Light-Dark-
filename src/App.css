@@ -1,0 +1,34 @@
+:root {
+  --background: black;
+  --primary-color: wheat;
+  --button-bg: wheat;
+  --button-text: black;
+}
+[data-theme='light'] {
+  --background: white;
+  --primary-color: black;
+  --button-bg: black;
+  --button-text: wheat;
+}
+* {
+  margin: 0;
+  border: 0;
+}
+.homeCont {
+  background-color: var(--background);
+  color: var(--primary-color);
+  width: 100%;
+  height: 100vh;
+}
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+button {
+  margin: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  cursor: pointer;
+}
